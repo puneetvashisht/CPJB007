@@ -1,0 +1,6 @@
+package com.cts.springbootbasic.controllers;
+
+@RestController
+public class HelloController {
+
+}

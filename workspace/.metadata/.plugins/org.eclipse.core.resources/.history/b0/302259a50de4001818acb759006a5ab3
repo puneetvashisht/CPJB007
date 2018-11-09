@@ -1,0 +1,5 @@
+package com.cts.demo.entities;
+
+public class Course {
+
+}
