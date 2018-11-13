@@ -11,6 +11,9 @@
 <my-badge caption="Sent" count ="34"></my-badge>
 <my-badge caption="Work" ></my-badge> -->
 
-<my-badge *ngFor="let course of courses" caption={{course.caption}} count={{course.votes}}></my-badge>
+<!-- <my-badge *ngFor="let course of courses" caption={{course.caption}} count={{course.votes}}></my-badge> -->
 
+<ul>
+  <li *ngFor="let course of courses">{{course.name}}</li>
 
+</ul>

@@ -1,0 +1,29 @@
+package com.cts.springbootbasic.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cts.springbootbasic.entities.Course;
+import com.cts.springbootbasic.entities.Greeting;
+import com.cts.springbootbasic.repos.CourseRepo;
+
+@RestController
+public class HelloController {
+	
+	@Autowired
+	CourseRepo courseRepo;
+	
+	@RequestMapping(path="/hello", method=RequestMethod.GET)
+	public Greeting sayHello(){
+		return new Greeting("Konichiwa!!");
+	}
+	
+	public List<Course> fetchAllCourses(){
+		return courseRepo.findAll();
+	}
+
+}

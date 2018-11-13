@@ -14,6 +14,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/Users/puneetvashisht/work/trainings/FTJB017/springbootbasic"/>
 			<item value="/Users/puneetvashisht/Downloads/demo 2"/>
 		</list>
 		<list key="projectNameTemplate">

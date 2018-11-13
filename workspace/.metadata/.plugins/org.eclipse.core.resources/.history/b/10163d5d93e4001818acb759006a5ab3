@@ -1,0 +1,5 @@
+package com.cts.springbootbasic.repos;
+
+public interface CourseRepo {
+
+}
